@@ -1,0 +1,149 @@
+{
+  "users": [
+    {
+      "name": "Sakthi M",
+      "email": "msakthi@gmail.com",
+      "password": "P@ssw0rd",
+      "confirmPassword": "P@ssw0rd",
+      "termsAccepted": true,
+      "id": 1
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "trend":1,
+      "name": "fghyj",
+      "place": "dfghn",
+      "date": "24/09/2004",
+      "organizer": "dfgh",
+      "organization": "dfgh",
+      "description": "sedrty",
+      "image": "logo512.png",
+      "capacity": 100,
+      "small_description": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "fghj",
+      "type": "investment",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "id": 1,
+      "trend":1,
+      "name": "fghyj",
+      "place": "dfghn",
+      "date": "24/09/2004",
+      "organizer": "dfgh",
+      "organization": "dfgh",
+      "description": "sedrty",
+      "image": "logo512.png",
+      "capacity": 100,
+      "small_description": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "fghj",
+      "type": "investment",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "id": 1,
+      "trend":1,
+      "name": "fghyj",
+      "place": "dfghn",
+      "date": "24/09/2004",
+      "organizer": "dfgh",
+      "organization": "dfgh",
+      "description": "sedrty",
+      "image": "logo512.png",
+      "capacity": 100,
+      "small_description": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "fghj",
+      "type": "investment",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    },
+    {
+      "id": 1,
+      "trend":1,
+      "name": "fghyj",
+      "place": "dfghn",
+      "date": "24/09/2004",
+      "organizer": "dfgh",
+      "organization": "dfgh",
+      "description": "sedrty",
+      "image": "logo512.png",
+      "capacity": 100,
+      "small_description": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "location": "fghj",
+      "type": "investment",
+      "guest": "Mr Walter White",
+      "gmap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.0462295025386!2d77.02580497487364!3d11.035158489129774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857c9a17429ab%3A0xf80d63451ebe8c18!2sCodissia%20Ground!5e0!3m2!1sen!2sin!4v1722135679018!5m2!1sen!2sin",
+      "organization_details": "Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Another tab content or sample information now Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "inclusive": [
+        "Pickup from bus stand,Airport,Railway Station",
+        "Food and coffee",
+        "Letterpad and Pen",
+        "ID card"
+      ],
+      "exclusive": [
+        "No return to bus stand,Airport,Railway Station",
+        "Room for refreshment",
+        "Alchol"
+      ]
+    }
+  ],
+  "contactus": [
+    {
+      "name": "asdf",
+      "email": "msakthi150@gmail.com",
+      "message": "gthyujkl",
+      "sendCopy": true,
+      "id": 1
+    },
+    {
+      "name": "efgh",
+      "email": "dfgh@dfg.com",
+      "message": "dfgh",
+      "sendCopy": false,
+      "id": 2
+    }
+  ],
+  "event_register": [
+    
+  ]
+}

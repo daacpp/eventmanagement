@@ -1,0 +1,49 @@
+json-server --watch db.json --port 3001
+
+table user
+id int pk
+name string 
+email string pk
+password string
+termsAccepted bool
+
+table events
+id int pk
+name string
+place string
+date string
+organizer string
+organization string
+description string
+image string
+capacity int
+small_description string
+location string
+price int
+type string
+guest string
+gmap string
+organization_details string
+inclusive list string
+exclusive list string
+
+table contactus
+name string
+email string
+message string
+sendCopy bool
+id int
+
+table event_register
+id pk
+userid fk from usertable id
+eventid fk from events table id
+firstName string
+lastName string
+email string
+age int
+bussinessName string
+organizationName string
+city string
+state string
+zipcode int
