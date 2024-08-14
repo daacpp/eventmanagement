@@ -3,7 +3,7 @@ import React from 'react';
 const EventDate = ({ date }) => {
   const formatDate = (dateString) => {
     // Split the date string to extract day, month, and year
-    const [day, month, year] = dateString.split('/');
+    const [year, month, day] = dateString.split('-');
 
     // Create a new Date object using the extracted parts
     const dateObject = new Date(`${year}-${month}-${day}`);

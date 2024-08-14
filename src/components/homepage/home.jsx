@@ -12,21 +12,31 @@ function Home() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Fetch events where trend is 1
-    axios.get('http://localhost:3001/events?trend=1')
+    // Fetch all events
+    axios.get('http://51.20.31.249/events/')
       .then(response => {
-        setEvents(response.data);
+        // Filter events where trend is true (1)
+        const trendingEvents = response.data.filter(event => event.trend === 1);
+        setEvents(trendingEvents);
       })
       .catch(error => {
         console.error('Error fetching events:', error);
-        toast.error('Error fetching events. Please try again later.');
+        setTimeout(() => {
+          toast.error('Error fetching events. Please try again later.');
+        }, 500);
       });
   }, []);
 
   return (
     <>
+      <title>Elite Corporate Event Management</title>
       <Navbar />
-      <div className="home-img"></div>
+      <div className="home-img">
+        <div className="overlay"></div>
+        <div className="content">
+          <h1>Elite Corporate Event Management</h1>
+        </div>
+      </div>
       <h2 className='head-1'>Upcoming Events</h2>
       <div className="event-100-1">
         <div className="event-80-1">
@@ -64,9 +74,8 @@ function Home() {
           ))}
         </div>
       </div>
-      <TestimonialSlider></TestimonialSlider>
+      <TestimonialSlider />
       <Footer />
-
       <ToastContainer />
     </>
   );

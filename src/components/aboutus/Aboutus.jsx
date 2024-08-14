@@ -6,6 +6,7 @@ import Footer from '../footer/Footer';
 const AboutUs = () => {
   return (
   <>
+  <title>About Us</title>
   <Navbar></Navbar>
   <div>
       <div className="about-section-1">

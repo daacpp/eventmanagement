@@ -3,7 +3,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { logout } from '../redux/userAction';
-import { ToastContainer } from 'react-toastify';
+import { toast, ToastContainer } from 'react-toastify';
 
 const Navbar = () => {
   const { name } = useSelector((state) => state.user);
@@ -11,7 +11,10 @@ const Navbar = () => {
 
   const handleLogout = () => {
     dispatch(logout());
-    alert("Logged out successfully!");
+    setTimeout(() => {
+      toast.error("Logged out successfully!");
+      
+    }, 500);
   };
 
   return (
@@ -30,7 +33,7 @@ const Navbar = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <a className="navbar-brand mt-2 mt-lg-0 text-white" href="#">
+          <a className="navbar-brand mt-2 mt-lg-0 text-white" href="/">
             <img
               src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
               height="15"
@@ -100,7 +103,7 @@ const Navbar = () => {
           <Link className="btn btn-light" to="/login">Login</Link>
         )}
       </div>
-      <ToastContainer/>
+
     </nav>
   );
 };

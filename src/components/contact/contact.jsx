@@ -26,21 +26,29 @@ const ContactForm = () => {
     const { name, email, message, sendCopy } = formData;
   
     if (!name || !email || !message) {
-      alert("Please fill out all fields.");
+      setTimeout(() => {
+        toast.error("Please fill out all fields.");
+      }, 500);
       return;
     }
   
     if (!validateEmail(email)) {
-        alert("Invalid email address.");
+      setTimeout(() => {
+        toast.error("Invalid email address.");
+        
+      }, 500);
       return;
     }
   
     try {
       // Send form data to JSON server
-      await axios.post('http://localhost:3001/contactus', formData);
+      await axios.post('http://51.20.31.249/contactus/', formData);
   
       // Notify user of success
-      alert("Message sent successfully!");
+      setTimeout(() => {
+        toast.success("Message sent successfully!");
+
+      }, 500);
   
       // Clear the form
       setFormData({
@@ -51,7 +59,9 @@ const ContactForm = () => {
       });
     } catch (error) {
       // Notify user of error
-      alert("Failed to send message. Please try again.");
+      setTimeout(() => {
+        toast.error("Failed to send message. Please try again.");
+      }, 500);
     }
   };
 
@@ -62,6 +72,7 @@ const ContactForm = () => {
 
   return (
 <>
+<title>Contact Us</title>
 <Navbar></Navbar>
 <div className="container mt-5 form-div">
       
@@ -124,7 +135,6 @@ const ContactForm = () => {
      <div className="contact-img"></div>
 
 
-      <ToastContainer />
     </div>
 <Footer></Footer>
 </>

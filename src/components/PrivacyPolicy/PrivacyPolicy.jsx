@@ -1,8 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 const PrivacyPolicy = () => {
   return (
+    <>
+    <Navbar></Navbar>
+        <title>Privacy Policy</title>
+
     <div>
       <header className="text-dark p-3 text-center">
         <h1>Privacy Policy</h1>
@@ -123,6 +129,8 @@ const PrivacyPolicy = () => {
 
       
     </div>
+    <Footer></Footer>
+    </>
   );
 };
 

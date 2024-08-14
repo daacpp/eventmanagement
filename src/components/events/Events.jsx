@@ -13,7 +13,7 @@ const Event = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/events');
+        const response = await axios.get('http://51.20.31.249/events');
         setEvents(response.data);
         setLoading(false);
       } catch (error) {
@@ -31,6 +31,7 @@ const Event = () => {
 
   return (
     <>
+    <title>Events</title>
       <Navbar />
         <h1 className='head-1'>Events</h1>
       <div className="event-100">
@@ -53,8 +54,8 @@ const Event = () => {
                 <span><b>Date</b></span>
                 <EventDate date={event.date}></EventDate>                </div>
                 <div className="event-detail-value">
-                <span><b>Organizer</b></span>
-                <span>{event.organizer}</span>
+                <span><b>Organization</b></span>
+                <span>{event.organization}</span>
                 </div>
                 <div className="event-detail-value">
                 <span><b>Location</b></span>
